@@ -6,7 +6,7 @@ This page is about to explain Git for beginners
 
 ### Start 
 
-{% page-ref page="git-intro.md" %}
+ [Git Intro](git-intro.md) - Introduction
 
-{% page-ref page="git-architecture.md" %}
+[Git Architecture](git-architecture.md) - Design of Git
 
