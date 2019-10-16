@@ -1,18 +1,8 @@
----
-description: introduction to git
----
-
-# Git intro
-
-## What is Git
+# Git
 
 
 
+This page is about to explain Git for beginners
 
 
-## Why git so famous
-
-
-
-## Reference
 
