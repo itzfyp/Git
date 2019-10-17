@@ -24,5 +24,13 @@ it solves most problems occurred while more people working in same file or proje
 
 You might think why Git is so famous even though there are many version control software around the world. You will come to know this after going through documents. I'll give you some useful features which Git has than others.
 
+* has many handful comments to interact directly with Git to manage source code versions 
+* git will take your code and keep it locally which lives inside a special folder named `.git`
+* can work offline with existing cloned code and can push the changes once it connects with network.
+* git uses SHA-1 hash key to track each changes which provides tight integrity
+* more communities and docs around the world to solve any issues
+
 ## Reference
+
+History of Git  [https://medium.com/@willhayjr/the-architecture-and-history-of-git-a-distributed-version-control-system-62b17dd37742](https://medium.com/@willhayjr/the-architecture-and-history-of-git-a-distributed-version-control-system-62b17dd37742)
 
