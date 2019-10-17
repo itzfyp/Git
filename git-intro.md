@@ -22,7 +22,7 @@ it solves most problems occurred while more people working in same file or proje
 
 ## Why git so famous
 
-
+You might think why Git is so famous even though there are many version control software around the world. You will come to know this after going through documents. I'll give you some useful features which Git has than others.
 
 ## Reference
 
