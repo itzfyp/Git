@@ -23,3 +23,5 @@ Git has three main sections which illustrated in below picture
 
 ## Reference
 
+`Git basics` [https://git-scm.com/book/en/v1/Getting-Started-Git-Basics](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics)
+
