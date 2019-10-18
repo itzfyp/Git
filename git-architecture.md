@@ -12,13 +12,14 @@ Git has three main sections which illustrated in below picture
 
 `staging area` this is a simple file to store the information modified files which will go into your next commit.
 
-### Steps followed by Git
+### Git workflows on users actions
 
 | Users Do | Git Does |
 | :--- | :--- |
-| Clone / Create repository | It stores the cloned / created repository in git directory which available on local disk  |
+| clone / create repository | It stores the cloned / created repository in git directory which available on local disk  |
 | checkout a branch | Git will pull a copy of that branch from git directory available. Original code / branch will be prevented from being modified |
-|  |  |
+| stage changes | If we stage modified / new files, Git will store those files in staging area. which will be used later in commit phase |
+| commit changes | Git takes the files as they are in the staging area and stores that snapshot permanently to your Git directory. |
 
 ## Reference
 
