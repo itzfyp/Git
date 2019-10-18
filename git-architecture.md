@@ -1,10 +1,6 @@
----
-description: Behind the scene of Git
----
+# Git Workflow
 
-# Git Architecture
-
-## Git Design
+### Git files structure
 
  
 
