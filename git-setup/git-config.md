@@ -3,10 +3,10 @@
 Git comes with many useful configuration variables. And it lets us to set and get configuration variables that controls how git looks and controls. We can set and get those configurations at three levels.
 
 * System
-* User
+* User / Global
 * Repository
 
-### System level
+### System level \(--system\)
 
 System-level covers an entire user, entire machine and all repos. While editing at this level, the changes can be seen all over the places, i.e., every repo level can be affected. _So, editing the configuration level in the system is often discouraged._
 
@@ -20,7 +20,55 @@ for windows users `C:\ProgramData\Git\config`
 
 for mac / linux users `~/etc/gitconfig`
 
-### User level
+### User level \(--global\)
 
+User level configuration is user-specific, meaning it is applied to an operating system user.
 
+```text
+git config --global <options>
+```
+
+#### location of user configuration
+
+for windows users  `C:\Users\<username>\.gitconfig` 
+
+for mac / linux users `~/.gitconfig`
+
+### Repository level \(--local\)
+
+Repository level is the level which is specific to the repository. For example, if you have cloned any project from GitHub then by default git config will write on the local level when no configuration is passed.
+
+```text
+git config --local <options>
+```
+
+#### location of local configuration
+
+ It can be found in the repo's .git directory: `.git/config` 
+
+### Example 
+
+You can set up Git with your name
+
+```text
+git config --global user.name "<Your-Full-Name>"
+```
+
+You can set up Git with your email
+
+```text
+git config --global user.email "<your-email-address>"
+```
+
+You can make sure that Git output is colored
+
+```text
+git config --global color.ui auto
+```
+
+ VSCode Setup
+
+```text
+git config --global core.editor "code --wait"
+```
 
