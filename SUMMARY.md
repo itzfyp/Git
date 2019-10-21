@@ -6,4 +6,7 @@
 * [Git Setup](git-setup/README.md)
   * [git config](git-setup/git-config.md)
 * [Start with Me](start-with-me.md)
+* [Reference](reference/README.md)
+  * [Git setup level](reference/git-setup-level.md)
+  * [Untitled](reference/untitled.md)
 
