@@ -12,5 +12,7 @@ if you have installed git already in your system, you can update git to latest v
 git clone https://github.com/git/git
 ```
 
+#### Set Your Name and Mail in Git Config
+
 
 
