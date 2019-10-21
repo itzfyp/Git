@@ -8,7 +8,7 @@ Git is a version control system. It is being used to keep track of changes in an
 
 #### Explained
 
-First of all Git is a tool / software. Which will be installed in our local system\( will see in [Git Setup](git-setup.md)\). We  can access Git using command line or Git GUI. Which has lots of features to handle and share code with other people in projects.
+First of all Git is a tool / software. Which will be installed in our local system\( will see in [Git Setup](git-setup/)\). We  can access Git using command line or Git GUI. Which has lots of features to handle and share code with other people in projects.
 
 Some of features are below
 
