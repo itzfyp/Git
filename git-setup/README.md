@@ -30,7 +30,3 @@ git config --global user.email "getify@gmail.com"
 
 Want to know more about configuration, go to [git config](git-config.md) chapter
 
-{% hint style="info" %}
-Want to know more about configuration, go to [git config](git-config.md) chapter
-{% endhint %}
-
