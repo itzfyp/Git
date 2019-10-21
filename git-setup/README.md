@@ -22,11 +22,17 @@ After everything is set up and you have “git” in your PATH environment varia
 git config --global user.name "kyle symson"
 ```
 
-#### Configure your mail 
+#### Configure your email 
 
 ```text
 git config --global user.email "getify@gmail.com"
 ```
+
+#### What is the use of configuring name and mail ?
+
+Whenever we commit a code , git will indicate that who are doing commit with name and email configured already. It will help us to know who has committed.
+
+In future, at any time we can update the user details.
 
 Want to know more about configuration, go to [git config](git-config.md) chapter
 
