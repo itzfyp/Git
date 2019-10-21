@@ -28,3 +28,5 @@ git config --global user.name "kyle symson"
 git config --global user.email "getify@gmail.com"
 ```
 
+you can learn about git config in [git config](git-config.md) chapter
+
