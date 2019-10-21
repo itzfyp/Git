@@ -2,7 +2,7 @@
 
 ### Download Git
 
-you can find Git for your machine \(mac / windows\) [https://git-scm.com/downloads](https://git-scm.com/downloads)
+[Here](https://git-scm.com/downloads) you can find Git for your machine \(mac / windows\) 
 
 ### Update if Git installed already
 
@@ -28,5 +28,5 @@ git config --global user.name "kyle symson"
 git config --global user.email "getify@gmail.com"
 ```
 
-you can learn about git config in [git config](git-config.md) chapter
+Want to know more about configuration, go to [git config](git-config.md) chapter
 
