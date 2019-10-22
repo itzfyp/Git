@@ -8,5 +8,5 @@ This page is about to explain Git for beginners
 
  [Git Intro](git-intro.md) - Introduction
 
-[Git Architecture](git-architecture.md) - Design of Git
+[Git Workflow](git-architecture.md) - Design of Git
 
