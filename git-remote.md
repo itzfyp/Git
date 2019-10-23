@@ -23,7 +23,7 @@ origin	https://github.com/schacon/ticgit (push)
 
 `git remote -v` which shows you the URLs that Git has stored for the short name to be used when reading and writing to that remote.
 
-`origin` is the short name which will discuss later in this chapter
+`origin` is default short name for repo. which we can use this later to pull or push code.
 
 `https://github.com/schacon/ticgit` is the path or URL \( https or ssh \)where your repos hosted.
 
@@ -38,5 +38,13 @@ Here you have connected with one repo. But your are seeing two paths. What is th
 
 ### Add new repo
 
-At first time, if we clone a repo from remote repository. Git will pull those code and store them in local. By default Git will assign a short name for that repo path called `origin`
+At first time, if we clone a repo from remote repository like below. Git will pull those code and store them in local. 
+
+```text
+git clone https://github.com/schacon/ticgit
+```
+
+By default Git will assign a short name for that repo path called `origin`
+
+Now follow section that we discussed above in _**How to check if remote repo's already connected or not** t_o verify that repo is added
 
