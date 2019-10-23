@@ -36,7 +36,7 @@ Here you have connected with one repo. But your are seeing two paths. What is th
 
 ~~nothing will be displayed~~
 
-### Add new repo
+### Add new repos
 
 At first time, if we clone a repo from remote repository like below. Git will pull those code and store them in local. Now your new repo added implicitly into git remote.
 
