@@ -36,5 +36,7 @@ Here you have connected with one repo. But your are seeing two paths. What is th
 
 ~~nothing will be displayed~~
 
+### Add new repo
 
+At first time, if we clone a repo from remote repository. Git will pull those code and store them in local. By default Git will assign a short name for that repo path called `origin`
 
