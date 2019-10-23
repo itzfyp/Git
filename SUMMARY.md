@@ -10,5 +10,5 @@
 * [Reference](reference/README.md)
   * [Git setup level](reference/git-setup-level.md)
   * [Untitled](reference/untitled.md)
-* [git remote](git-remote.md)
+* [git remote repo's](git-remote.md)
 
