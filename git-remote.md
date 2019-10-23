@@ -48,7 +48,7 @@ By default Git will assign a short name for that repo path called `origin`
 
 Now follow the section that we discussed above in _**How to check if remote repo's already connected or not** t_o verify that repo is added
 
-#### How do we add remote manually
+#### How to add remote manually
 
 Git has commands to handle the remote manually. Below are the commend to add a new remote repo.
 
@@ -65,4 +65,16 @@ example
 ```text
 git remote add testShortName https://github.com/paulboone/ticgit
 ```
+
+_Using this command we can add as many as remote repos with git_
+
+```text
+git remote -v
+origin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
+testShortName	https://github.com/paulboone/ticgit (fetch)
+testShortName	https://github.com/paulboone/ticgit (push)
+```
+
+
 
