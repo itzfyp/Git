@@ -44,9 +44,9 @@ At first time, if we clone a repo from remote repository like below. Git will pu
 git clone https://github.com/schacon/ticgit
 ```
 
-By default Git will assign a short name for that repo path called `origin`
+By default Git will assign a short name for that repo called `origin`
 
-Now follow the section that we discussed above in _**How to check if remote repo's already connected or not** t_o verify that repo is added
+Now follow the section that we discussed above in _**How to check if remote repo's already connected or not** t_o verify that repo is added or not
 
 #### How to add remote manually
 
@@ -76,6 +76,17 @@ testShortName	https://github.com/paulboone/ticgit (fetch)
 testShortName	https://github.com/paulboone/ticgit (push)
 ```
 
+#### Tips 
+
+if you try to add a remote with a name that already exists in your local, You may encounter below message.
+
+```text
+git remote add origin https://github.com/octocat/Spoon-Knife
+fatal: remote origin already exists.
+```
+
+
+
 ### Remove remote repos
 
 If you want to remove a remote for some reason — you’ve moved the server or are no longer using a particular mirror, or perhaps a contributor isn’t contributing anymore — you can either use  below command which expects one argument which is your remote name.
@@ -88,7 +99,9 @@ git remote rm <shortName of your remote>
 
 _**Note**: Above commend does not delete the remote repository from the server. It simply removes the remote and its references from your local repository._
 
-If you try to remove a remote which doesn't exist in remote server or network, you will get below error message.
+**Tips** 
+
+If you try to remove a remote which doesn't exist in remote server or network, You may encounter below message.
 
 ```text
  git remote rm nonExistantRepo
