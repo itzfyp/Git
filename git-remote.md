@@ -46,7 +46,7 @@ git clone https://github.com/schacon/ticgit
 
 By default Git will assign a short name for that repo called `origin`
 
-Now follow the section that we discussed above in **Check existing repos** _****t_o verify that repo is added or not
+Now follow the section that we discussed above in **`Check existing repos`** _**``**t_o verify that repo is added or not
 
 #### How to add remote manually
 
