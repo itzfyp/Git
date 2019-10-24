@@ -76,5 +76,13 @@ testShortName	https://github.com/paulboone/ticgit (fetch)
 testShortName	https://github.com/paulboone/ticgit (push)
 ```
 
+### Remove Repos
 
+If you want to remove a remote for some reason — you’ve moved the server or are no longer using a particular mirror, or perhaps a contributor isn’t contributing anymore — you can either use  below command which expects one argument which is your remote name.
+
+```text
+git remote remove <shortName of your remote>
+        (or)
+git remote rm <shortName of your remote>
+```
 
