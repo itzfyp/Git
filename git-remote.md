@@ -6,7 +6,7 @@ Remote repositories are your project that hosted in internet or network somewher
 
 We can connect remote repos with our local git via path \( http or ssh \) from hosted network.  We will see how to handle remote repos soon. 
 
-#### How to check if remote repo's already connected or not
+### Check existing repos
 
 First we need to check that any repos are already added. To check, you have to specify below comments in command line
 
@@ -32,9 +32,9 @@ Here you have connected with one repo. But your are seeing two paths. What is th
 * `fetch` - to pull code from remote repo.
 * `push`  - push your commits to remote repo.
 
-#### what if there is no remote repo connected
+#### Tips
 
-~~nothing will be displayed~~
+~~If there is no repos connected, you may encounter below message~~
 
 ### Add new repos
 
@@ -46,7 +46,7 @@ git clone https://github.com/schacon/ticgit
 
 By default Git will assign a short name for that repo called `origin`
 
-Now follow the section that we discussed above in _**How to check if remote repo's already connected or not** t_o verify that repo is added or not
+Now follow the section that we discussed above in **Check existing repos** _****t_o verify that repo is added or not
 
 #### How to add remote manually
 
@@ -84,8 +84,6 @@ if you try to add a remote with a name that already exists in your local, You ma
 git remote add origin https://github.com/octocat/Spoon-Knife
 fatal: remote origin already exists.
 ```
-
-
 
 ### Remove remote repos
 
