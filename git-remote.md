@@ -4,7 +4,7 @@
 
 Remote repositories are your project that hosted in internet or network somewhere.
 
-We can connect remote repos with our local git via path \( http or ssh \) where your code hosted.  We will see how to handle remote repos soon. 
+We can connect remote repos with our local git via path \( http or ssh \) from hosted network.  We will see how to handle remote repos soon. 
 
 #### How to check if remote repo's already connected or not
 
