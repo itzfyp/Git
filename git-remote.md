@@ -86,5 +86,12 @@ git remote remove <shortName of your remote>
 git remote rm <shortName of your remote>
 ```
 
-_**Note**: `git remote rm` does not delete the remote repository from the server. It simply removes the remote and its references from your local repository._
+_**Note**: Above commend does not delete the remote repository from the server. It simply removes the remote and its references from your local repository._
+
+If you try to remove a remote which doesn't exist in remote server or network, you will get below error message.
+
+```text
+ git remote rm nonExistantRepo
+ error: Could not remove config section 'remote.sofake'
+```
 
