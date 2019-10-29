@@ -108,6 +108,21 @@ If you try to remove a remote which doesn't exist in remote server or network, Y
 
 ### Update remote repos
 
+#### Change remote repos URL
+
+To change an existing remote path with new one, we can use below commands.
+
+```text
+git remote set-url <existing remote name> <new remote url / path>
+```
+
+example
+
+```text
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+git remote set-url myrepo git@github.com:USERNAME/REPOSITORY.git
+```
+
 To change or update an existing remote names, below commands are used
 
 ```text
