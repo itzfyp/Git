@@ -14,7 +14,7 @@ git clone https://github.com/git/git
 
 ### Set Your Name and Mail in Git Config
 
-After everything is set up and you have “git” in your PATH environment variable, then the first thing you have to do is to config git with your name and email. \(_Note : here you are going to set name and email at system level. Not user / repo specific. More details in_ [_git-config_](git-config.md) _chapter\)._
+After everything is set up and you have “git” in your PATH environment variable, then the first thing you have to do is to config git with your name and email. \(_Note : here you are going to set name and email at system level. Not user / repo specific. More details is_ [_here_](git-config.md)_\)._
 
 #### Configure your name
 
@@ -34,5 +34,5 @@ Whenever we commit a code , git will indicate that who are doing commit with nam
 
 In future, at any time we can update the user details.
 
-Want to know more about configuration, go to [git config](git-config.md) chapter
+Want to know more about configuration, [click here](git-config.md) 
 

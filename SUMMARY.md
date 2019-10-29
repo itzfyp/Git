@@ -9,6 +9,7 @@
 * [Start with Me](start-with-me.md)
 * [Reference](reference/README.md)
   * [Git setup level](reference/git-setup-level.md)
-  * [Untitled](reference/untitled.md)
+  * [Git Config Options](reference/untitled.md)
+  * [Git remotes](reference/git-remotes.md)
 * [git remote repo's](git-remote.md)
 

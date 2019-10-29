@@ -55,5 +55,5 @@ git config --global core.excludesfile ~/.gitignore_global
 git config --global core.editor emacs
 ```
 
-[Click](https://git-scm.com/docs/git-config) here to learn more about list of options available in git configuration. 
+[Click](https://git-scm.com/docs/git-config) here to learn more about list of options available in git configuration Official site. 
 
