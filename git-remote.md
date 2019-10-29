@@ -114,3 +114,10 @@ To change or update an existing remote names, below commands are used
 git remote rename <existing remote name> <new name for the remote>
 ```
 
+if you entered wrong name or made any typo's while entering , you will encounter below message
+
+```text
+git remote rename oldnam'ee newname
+# Could not rename config section 'remote.[old name]' to 'remote.[new name]'
+```
+
