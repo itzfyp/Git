@@ -1,4 +1,4 @@
-# git config
+# git config level
 
 Git comes with many useful configuration variables. And it lets us to set and get configuration variables that controls how git looks and controls. We can set and get those configurations at three levels.
 
@@ -46,29 +46,5 @@ git config --local <key> <value>
 
  It can be found in the repo's .git directory: `.git/config` 
 
-### Example 
 
-You can set up Git with your name
-
-```text
-git config --global user.name "<Your-Full-Name>"
-```
-
-You can set up Git with your email
-
-```text
-git config --global user.email "<your-email-address>"
-```
-
-You can make sure that Git output is colored
-
-```text
-git config --global color.ui auto
-```
-
- VSCode Setup
-
-```text
-git config --global core.editor "code --wait"
-```
 
