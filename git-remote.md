@@ -17,8 +17,8 @@ git remote -v
 your will see list of remotes if git connected with repos like below
 
 ```text
-origin	https://github.com/schacon/ticgit (fetch)
-origin	https://github.com/schacon/ticgit (push)
+> origin	https://github.com/schacon/ticgit (fetch)
+> origin	https://github.com/schacon/ticgit (push)
 ```
 
 `git remote -v` which shows you the URLs that Git has stored for the short name to be used when reading and writing to that remote.
@@ -46,7 +46,7 @@ git clone https://github.com/schacon/ticgit
 
 By default Git will assign a short name for that repo called `origin`
 
-Now follow the section that we discussed above in **`Check existing repos`** _**``**t_o verify that repo is added or not
+Now follow the section that we discussed above in **`Check existing repos`**_t_o verify that repo is added or not
 
 #### How to add remote manually
 
@@ -70,10 +70,10 @@ _Using this command we can add as many as remote repos with git_
 
 ```text
 git remote -v
-origin	https://github.com/schacon/ticgit (fetch)
-origin	https://github.com/schacon/ticgit (push)
-testShortName	https://github.com/paulboone/ticgit (fetch)
-testShortName	https://github.com/paulboone/ticgit (push)
+> origin	https://github.com/schacon/ticgit (fetch)
+> origin	https://github.com/schacon/ticgit (push)
+> testShortName	https://github.com/paulboone/ticgit (fetch)
+> testShortName	https://github.com/paulboone/ticgit (push)
 ```
 
 #### Tips 
@@ -87,7 +87,9 @@ git remote add origin https://github.com/octocat/Spoon-Knife
 
 ### Remove remote repos
 
-If you want to remove a remote for some reason — you’ve moved the server or are no longer using a particular mirror, or perhaps a contributor isn’t contributing anymore — you can either use  below command which expects one argument which is your remote name.
+If you want to remove a remote for some reason  that you’ve moved the server or are no longer using a particular mirror, or perhaps a contributor isn’t contributing anymore 
+
+ you can use either of below command which expects one argument which is your remote name.
 
 ```text
 git remote remove <shortName of your remote>
@@ -155,7 +157,7 @@ git remote rename oldnam'ee newname
 
 If you go to your local repository folder in your system, 
 
-There you have a hidden folder in the name of .git. This folder has all details of your repo. 
+There you have a hidden folder in the name of `.git`. This folder has all details of your repo. 
 
-There you have a file named config. You can view and edit configuration available in config file. which will reflect to that particular repo only. Other repos will not get affected.
+There you have a file named `config`. You can view and edit configuration available in config file. which will reflect to that particular repo only. Other repos will not get affected.
 
