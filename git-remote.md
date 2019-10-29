@@ -151,3 +151,11 @@ git remote rename oldnam'ee newname
 > Could not rename config section 'remote.[old name]' to 'remote.[new name]'
 ```
 
+### Where can i these configuration in my system
+
+If you go to your local repository folder in your system, 
+
+There you have a hidden folder in the name of .git. This folder has all details of your repo. 
+
+There you have a file named config. You can view and edit configuration available in config file. which will reflect to that particular repo only. Other repos will not get affected.
+
