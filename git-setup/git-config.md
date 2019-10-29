@@ -1,4 +1,4 @@
-# git config level
+# Understanding level of Git Configuration
 
 Git comes with many useful configuration variables. And it lets us to set and get configuration variables that controls how git looks and controls. We can set and get those configurations at three levels.
 
@@ -46,5 +46,5 @@ git config --local <key> <value>
 
  It can be found in the repo's .git directory: `.git/config` 
 
-
+_To know more about list of configuration available, Please go though_ [_git configuration list_](git-set-config.md)_._
 
