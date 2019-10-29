@@ -82,7 +82,7 @@ if you try to add a remote with a name that already exists in your local, You ma
 
 ```text
 git remote add origin https://github.com/octocat/Spoon-Knife
-fatal: remote origin already exists.
+> fatal: remote origin already exists.
 ```
 
 ### Remove remote repos
@@ -95,7 +95,7 @@ git remote remove <shortName of your remote>
 git remote rm <shortName of your remote>
 ```
 
-_**Note**: Above commend does not delete the remote repository from the server. It simply removes the remote and its references from your local repository._
+_**Note :** Above commend does not delete the remote repository from the server. It simply removes the remote and its references from your local repository._
 
 **Tips** 
 
@@ -103,12 +103,12 @@ If you try to remove a remote which doesn't exist in remote server or network, Y
 
 ```text
  git remote rm nonExistantRepo
- error: Could not remove config section 'remote.sofake'
+ > error: Could not remove config section 'remote.sofake'
 ```
 
 ### Update remote repos
 
-#### Change remote repos URL
+#### Change remote url
 
 To change an existing remote path with new one, we can use below commands.
 
@@ -123,16 +123,31 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 git remote set-url myrepo git@github.com:USERNAME/REPOSITORY.git
 ```
 
+_**Note :** The next time you `git fetch`, `git pull`, or `git push` to the remote repository, you'll be asked for your GitHub username and password_
+
+**Tips**
+
+You may encounter these errors when trying to change a remote.
+
+```text
+git remote set-url sofake https://github.com/octocat/Spoon-Knife
+> fatal: No such remote 'sofake'
+```
+
+#### Change remote name
+
 To change or update an existing remote names, below commands are used
 
 ```text
 git remote rename <existing remote name> <new name for the remote>
 ```
 
+**Tips**
+
 if you entered wrong name or made any typo's while entering , you will encounter below message
 
 ```text
 git remote rename oldnam'ee newname
-# Could not rename config section 'remote.[old name]' to 'remote.[new name]'
+> Could not rename config section 'remote.[old name]' to 'remote.[new name]'
 ```
 
