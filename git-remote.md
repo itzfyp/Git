@@ -106,3 +106,11 @@ If you try to remove a remote which doesn't exist in remote server or network, Y
  error: Could not remove config section 'remote.sofake'
 ```
 
+### Update remote repos
+
+To change or update an existing remote names, below commands are used
+
+```text
+git remote rename <existing remote name> <new name for the remote>
+```
+
