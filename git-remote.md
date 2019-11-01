@@ -34,7 +34,12 @@ Here you have connected with one repo. But your are seeing two paths. What is th
 
 #### Tips
 
+You will encounter below message if there is no repo available in current directory
 
+```text
+git remote -v
+> fatal: not a git repository (or any of the parent directories): .git
+```
 
 ### Add new repos
 
