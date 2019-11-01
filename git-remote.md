@@ -34,7 +34,7 @@ Here you have connected with one repo. But your are seeing two paths. What is th
 
 #### Tips
 
-~~If there is no repos connected, you may encounter below message~~
+
 
 ### Add new repos
 
