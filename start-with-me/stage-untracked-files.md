@@ -28,6 +28,8 @@ We can commit a file with its name and format of that file
 git add firstFile.txt
 ```
 
+Now your changes will be moved to staging area and git will take your changes on next commit.
+
 **Tips** 
 
 If you omit or entered wrong file format, you could see below message
