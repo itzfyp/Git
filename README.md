@@ -12,7 +12,7 @@ This page is about to explain Git for beginners
 
 [Git Remote repo](git-remote.md) - Remote repo integration 
 
-
+[Start with Me](start-with-me/) - Learn Basic Steps of file management
 
 
 
