@@ -28,5 +28,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Here you can see your files `firstFile.txt`  under Untracked files section. Which means untracked files are not yet able to get converted to a Git commit. Only Staged files will be available for next or future commit.
 
+In next section we will see how to move new files or modified files into staging area.
+
 
 
