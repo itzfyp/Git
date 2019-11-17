@@ -28,7 +28,9 @@ We can commit a file with its name and format of that file
 git add firstFile.txt
 ```
 
-Tips : if you omit or entered wrong file format, you could see below message
+**Tips** 
+
+If you omit or entered wrong file format, you could see below message
 
 ```text
 ➜ git add firstFile
