@@ -8,7 +8,7 @@
   * [git config lists](git-setup/git-set-config.md)
 * [Start with Me](start-with-me/README.md)
   * [Create a file and check status of it](start-with-me/create-a-file-and-check-status-of-it.md)
-  * [Stage Untracked files](start-with-me/stage-untracked-files.md)
+  * [Stage Untracked / Modified files](start-with-me/stage-untracked-files.md)
 * [Reference](reference/README.md)
   * [Git setup level](reference/git-setup-level.md)
   * [Git Config Options](reference/untitled.md)
