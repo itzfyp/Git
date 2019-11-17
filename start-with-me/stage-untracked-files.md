@@ -15,7 +15,7 @@ git add command has lots of options to add files. which are
 * Add a file
 * Add multiple  files
 * Verbose
-* Add specific set of files
+* Add specific format of files
 * Add all files from a PATH
 * Add all files from repo
 * Add forced files
@@ -37,11 +37,22 @@ fatal: pathspec 'firstFile' did not match any files
 
 #### Add multiple files
 
-We can add multiple files in single add command.
+We can add multiple files in single command.
 
 ```text
 git add firstFile.txt secondFile.txt home/index.js
 ```
+
+#### Verbose
+
+Verbose provides additional information while staging. if you stage a file with -v / --verbose , it will expose saved file\(s\) names.
+
+```text
+➜ git add firstFile.txt -v
+add 'firstFile.txt'
+```
+
+We are not able to see `add 'firstFile.txt'` if we don't use verbose options.
 
 
 
