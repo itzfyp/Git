@@ -37,7 +37,9 @@ nothing to commit (create/copy files and use "git add" to track)
 
 Now go to respective folder. And there you can see a hidden folder `.git` which has basic git configuration of your repository.
 
-So far, We have created a folder which initialised with git. Hence we will learn other process
+So far, We have created a folder which initialised with git. Hence we will learn other process like add, commit, stage and push files to your repository.
+
+
 
 
 
