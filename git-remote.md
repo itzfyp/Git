@@ -1,4 +1,4 @@
-# git remote repo's
+# Git remote repo's
 
 ### What is Remote repository
 

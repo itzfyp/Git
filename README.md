@@ -8,3 +8,11 @@ This page is about to explain Git for beginners
 
 [Git Workflow](git-architecture.md) - Design of Git
 
+[Git Setup](git-setup/) - Git integration
+
+[Git Remote repo](git-remote.md) - Remote repo integration 
+
+
+
+
+
