@@ -24,5 +24,20 @@ you will see below message while initialising a new git repository locally.
 Initialized empty Git repository in /Users/itzfyp/gitInit/.git/
 ```
 
+You can check for the current status of the git repository by using
+
+```text
+➜ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+```
+
+Now go to respective folder. And there you can see a hidden folder `.git` which has basic git configuration of your repository.
+
+So far, We have created a folder which initialised with git. Hence we will learn other process
+
 
 
